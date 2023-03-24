@@ -12,7 +12,7 @@ def is_enabled(value, default):
 API_ID = int(os.environ.get("API_ID", "11501320"))
 API_HASH = os.environ.get("API_HASH", "4b9d9a7c9ea5b6d28ef4e08f813b01b4")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6040505231:AAERK6E6j4zL1OEpAkZ8cn_OztCA-eZNWWY")
-DROPLINK_API = os.environ.get("DROPLINK_API")
+OMEGALINKS = os.environ.get("2d645d1bc91eba09df9cd378f924118028db4796")
 MDISK_API = os.environ.get("MDISK_API", "xqgKlr6p4gxx9LjTm6Ax")
 ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split(",")) if os.environ.get("1970524144") else []
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Hemanth0")
